@@ -1,5 +1,85 @@
-.header, .header_logo, .navigation, .contact, .nav_links {
+
+/*  Navigation section  */
+
+.inline_block, .My_Logo {
     display: inline-block;
-    background-color: red;
+    vertical-align: top;
 }
 
+.contact {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.My_Logo {
+    width: 22%;
+    padding: 1%;
+    background-color: aqua;
+    height: 65px;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+    color: #174655;
+    text-align: right;
+    background-color: blueviolet;
+}
+
+
+.Main_logo {
+    text-align: center;
+    width: 70px;
+}
+
+ul {
+   width: 70%;
+   margin-left: auto;
+}
+
+li {
+   
+    background-color: beige;
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14pt;
+}
+
+.contact {
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #174655;
+    color: white;
+    scale: 115%;
+    margin-right: 20px;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: brown;
+
+}
+
+.hero img {
+    width: 95%;
+}
+
+/* Footer section */
+
+footer {
+    width: 100%;
+    background-color: #174655;
+}
+
+.footer_logo {
+    display: inline-block;
+    background-color: aqua;
+    height: 15px;
+}
