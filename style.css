@@ -1,0 +1,5 @@
+.header, .header_logo, .navigation, .contact, .nav_links {
+    display: inline-block;
+    background-color: red;
+}
+
