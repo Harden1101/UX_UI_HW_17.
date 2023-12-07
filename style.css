@@ -4,6 +4,13 @@
 
 
 /*  Navigation section  */
+/*  Navigation section  */
+/*  Navigation section  */
+
+.navigation {
+    border-bottom: solid 2px #174655;
+
+}
 
 .inline_block, .My_Logo {
     display: inline-block;
@@ -18,7 +25,7 @@
 .My_Logo {
     width: 12%;
     padding: 1%;
-   
+
     height: 65px;
     justify-content: center;
 }
@@ -68,9 +75,12 @@ li {
 }
 
 /* Hero Section */
+/* Hero Section */
+/* Hero Section */
+
 
 .hero {
-
+    
 }
 
 .hero img {
@@ -78,6 +88,9 @@ li {
 }
 
 /* Footer section */
+/* Footer section */
+/* Footer section */
+
 
 footer {
     background-color: #174655;
