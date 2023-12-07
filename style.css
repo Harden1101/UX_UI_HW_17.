@@ -1,3 +1,7 @@
+* {
+    font-family: 'Archivo', sans-serif;
+}
+
 
 /*  Navigation section  */
 
@@ -12,7 +16,7 @@
 }
 
 .My_Logo {
-    width: 22%;
+    width: 12%;
     padding: 1%;
    
     height: 65px;
@@ -20,7 +24,7 @@
 }
 
 nav {
-    width: 73%;
+    width: 83%;
     padding: 1%;
     color: #174655;
     text-align: right;
@@ -77,12 +81,65 @@ li {
 /* Footer section */
 
 footer {
-    width: 100%;
     background-color: #174655;
+    text-align: center;
 }
 
-.footer_logo {
+footer h3{
     display: inline-block;
-    background-color: aqua;
-    height: 15px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
 }
+
+.footer_logo_container {
+    float: right;
+    margin-right: 50px;
+
+}
+
+.footer_FB {
+    display: inline-block;
+    background-image: url(Images/FB_icon.png);
+    height: 30px;
+    width: 40px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+ 
+    
+}
+
+.footer_linkedIn {
+    display: inline-block;
+    background-image: url(Images/Linkedin_icon.png);
+    height: 30px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left:  10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.footer_Behnce {
+    display: inline-block;
+    background-image: url(Images/Behance_icon.png);
+    height: 30px;
+    width: 70px;
+    margin-top: 5px;
+    margin-left:  15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+
+
+
